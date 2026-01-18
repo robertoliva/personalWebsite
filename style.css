@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 40px;
+}
+
+nav a {
+  margin-right: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.software-card {
+  max-width: 500px;
+  margin-top: 40px;
+}
+
+.software-card img {
+  width: 100%;
+  border: 1px solid #ccc;
+}
+
+.download {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 15px;
+  background: #007acc;
+  color: white;
+  text-decoration: none;
+}
