@@ -1,22 +1,44 @@
 body {
   font-family: Arial, sans-serif;
   margin: 40px;
+  min-height: 100vh;
+
+  /* Professional pastel gradient */
+  background: linear-gradient(
+    135deg,
+    #f4f7fb 0%,
+    #eef2f7 40%,
+    #f7f9fc 100%
+  );
+
+  color: #1f2933;
 }
 
 nav a {
   margin-right: 20px;
   text-decoration: none;
   font-weight: bold;
+  color: #1f2933;
+}
+
+nav a:hover {
+  text-decoration: underline;
 }
 
 .software-card {
   max-width: 500px;
   margin-top: 40px;
+  padding: 20px;
+
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
 }
 
 .software-card img {
   width: 100%;
-  border: 1px solid #ccc;
+  border-radius: 4px;
+  border: 1px solid #ddd;
 }
 
 .download {
@@ -26,4 +48,9 @@ nav a {
   background: #007acc;
   color: white;
   text-decoration: none;
+  border-radius: 4px;
+}
+
+.download:hover {
+  background: #005fa3;
 }
