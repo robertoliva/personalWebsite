@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Robert Oliva – CV</title>
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    header {
+      padding: 3rem 2rem 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin-bottom: 0.5rem;
+      font-size: 2.2rem;
+    }
+
+    header p {
+      color: #555;
+      font-size: 1.1rem;
+    }
+
+    .cv-options {
+      max-width: 700px;
+      margin: 2rem auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .cv-card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+      text-align: center;
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }
+
+    .cv-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 26px rgba(0, 0, 0, 0.08);
+    }
+
+    .cv-card h2 {
+      margin-top: 0;
+      font-size: 1.2rem;
+      color: #2c3e50;
+    }
+
+    .cv-card p {
+      font-size: 0.95rem;
+      color: #555;
+    }
+
+    .cv-card a {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.6rem 1.2rem;
+      background: #1a73e8;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: 500;
+    }
+
+    .cv-card a:hover {
+      background: #1558b0;
+    }
+  </style>
+</head>
+
+<body>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="software.html">Software</a>
+  <a href="cv.html">CV</a>
+  <a href="index.html#contact">Contact</a>
+</nav>
+
+<header>
+  <h1>Curriculum & Profiles</h1>
+  <p>Select the platform or document you want to access.</p>
+</header>
+
+<section class="cv-options">
+
+  <div class="cv-card">
+    <h2>ORCID</h2>
+    <p>Public researcher profile and publications.</p>
+    <a href="https://orcid.org/0000-0002-9378-4048" target="_blank" rel="noopener noreferrer">
+      View ORCID
+    </a>
+  </div>
+
+  <div class="cv-card">
+    <h2>Scopus</h2>
+    <p>Citation metrics and indexed publications.</p>
+    <a href="https://www.scopus.com/authid/detail.uri?authorId=YOUR_ID"
+       target="_blank" rel="noopener noreferrer">
+      View Scopus
+    </a>
+  </div>
+
+  <div class="cv-card">
+    <h2>GEO3BCN-CSIC</h2>
+    <p>Institutional profile at Geo3Bcn.</p>
+    <a href="https://www.geo3bcn.csic.es/"
+       target="_blank" rel="noopener noreferrer">
+      View Profile
+    </a>
+  </div>
+
+  <div class="cv-card">
+    <h2>CV (Spanish)</h2>
+    <p>Full curriculum vitae in PDF format.</p>
+    <a href="cv_robert_oliva_es.pdf">
+      Download PDF
+    </a>
+  </div>
+
+</section>
+
+</body>
+</html>
