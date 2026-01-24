@@ -2,37 +2,121 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Software</title>
+  <title>Robert Oliva – Software</title>
   <link rel="stylesheet" href="style.css">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: linear-gradient(135deg, #eef2f7, #f7f1f5);
+      color: #333;
+      line-height: 1.6;
+    }
+
+    nav {
+      background: rgba(255, 255, 255, 0.8);
+      padding: 1rem;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    }
+
+    nav a {
+      margin-right: 1.2rem;
+      text-decoration: none;
+      color: #2c3e50;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    header {
+      padding: 3rem 2rem 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin-bottom: 0.5rem;
+      font-size: 2.2rem;
+    }
+
+    header p {
+      color: #555;
+      font-size: 1.1rem;
+    }
+
+    section {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background: rgba(255, 255, 255, 0.85);
+      border-radius: 12px;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+    }
+
+    section h2 {
+      margin-top: 0;
+      color: #2c3e50;
+    }
+
+    .software-card img {
+      max-width: 100%;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+    }
+
+    .download {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.6rem 1.2rem;
+      background: #1a73e8;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: 500;
+    }
+
+    .download:hover {
+      background: #1558b0;
+    }
+  </style>
 </head>
+
 <body>
 
 <nav>
   <a href="index.html">Home</a>
   <a href="software.html">Software</a>
   <a href="https://orcid.org/0000-0002-9378-4048"
-   target="_blank"
-   rel="noopener noreferrer">CV</a>
-  <a href="#contact">Contact</a>
+     target="_blank"
+     rel="noopener noreferrer">CV</a>
+  <a href="index.html#contact">Contact</a>
 </nav>
 
-<h1>My Software</h1>
+<header>
+  <h1>Software</h1>
+  <p>Scientific tools developed for data analysis and research workflows.</p>
+</header>
 
-<div class="software-card">
-  <img src="datapro.png" alt="Software preview">
-  <h2>DataPro 1.09</h2>
-  <p>DataPro is a software designed to perform simple operations on multiple numerical data files simultaneously. The operations that can be performed on these columns include; i) arithmetic operations, ii) format operations, or iii) numerical operations.</p>
+<section>
+  <div class="software-card">
+    <img src="datapro.png" alt="DataPro software preview">
 
-  <a class="download"
-     href="https://github.com/robertoliva/DataPro_v109_public/releases/download/v109/DataPro_v109.zip">
-     Download (.zip)
-  </a>
-</div>
+    <h2>DataPro 1.09</h2>
+
+    <p>
+      DataPro is a software designed to perform simple operations on multiple
+      numerical data files simultaneously. Supported operations include
+      arithmetic, format conversions, and numerical processing.
+    </p>
+
+    <a class="download"
+       href="https://github.com/robertoliva/DataPro_v109_public/releases/download/v109/DataPro_v109.zip">
+      Download (.zip)
+    </a>
+  </div>
+</section>
 
 </body>
 </html>
-
-
-
-
-
