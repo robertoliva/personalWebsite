@@ -47,7 +47,7 @@
     }
 
     section {
-      max-width: 800px;
+      max-width: 900px;
       margin: 2rem auto;
       padding: 2rem;
       background: rgba(255, 255, 255, 0.85);
@@ -64,6 +64,33 @@
       max-width: 100%;
       border-radius: 8px;
       margin-bottom: 1rem;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.5rem;
+      margin-top: 1.5rem;
+    }
+
+    .feature-card {
+      background: white;
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+      text-align: center;
+    }
+
+    .feature-card img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 0.6rem;
+    }
+
+    .feature-card p {
+      font-size: 0.95rem;
+      color: #555;
+      margin: 0;
     }
 
     .download {
@@ -118,6 +145,33 @@
   </div>
 </section>
 
+<section>
+  <h2>Functionality preview</h2>
+
+  <div class="features">
+
+    <div class="feature-card">
+      <img src="DP_fittings.png" alt="Peak fitting in DataPro">
+      <p>Peak fitting and analysis of spectroscopic data.</p>
+    </div>
+
+    <div class="feature-card">
+      <img src="DP_formatting.png" alt="Formatting correction in DataPro">
+      <p>Correction of formatting errors in numerical data files.</p>
+    </div>
+
+    <div class="feature-card">
+      <img src="DP_renaming.png" alt="File renaming and organization in DataPro">
+      <p>Renaming and organizing multiple data files efficiently.</p>
+    </div>
+
+    <div class="feature-card">
+      <img src="DP_processing.png" alt="Numerical processing in DataPro">
+      <p>Numerical operations and processing of spectroscopic datasets.</p>
+    </div>
+
+  </div>
+</section>
+
 </body>
 </html>
-
