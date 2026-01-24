@@ -68,9 +68,14 @@
 
     .features {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      grid-template-columns: repeat(2, 1fr);
       gap: 1.5rem;
-      margin-top: 1.5rem;
+    }
+    
+    @media (max-width: 700px) {
+      .features {
+        grid-template-columns: 1fr;
+      }
     }
 
     .feature-card {
@@ -151,8 +156,18 @@
   <div class="features">
 
     <div class="feature-card">
+      <img src="DP_processing.png" alt="Numerical processing in DataPro">
+      <p>Numerical operations and processing of spectroscopic datasets.</p>
+    </div>
+    
+    <div class="feature-card">
       <img src="DP_fittings.png" alt="Peak fitting in DataPro">
       <p>Peak fitting and analysis of spectroscopic data.</p>
+    </div>
+    
+    <div class="feature-card">
+      <img src="DP_renaming.png" alt="File renaming and organization in DataPro">
+      <p>Renaming and organizing multiple data files efficiently.</p>
     </div>
 
     <div class="feature-card">
@@ -160,18 +175,9 @@
       <p>Correction of formatting errors in numerical data files.</p>
     </div>
 
-    <div class="feature-card">
-      <img src="DP_renaming.png" alt="File renaming and organization in DataPro">
-      <p>Renaming and organizing multiple data files efficiently.</p>
-    </div>
-
-    <div class="feature-card">
-      <img src="DP_processing.png" alt="Numerical processing in DataPro">
-      <p>Numerical operations and processing of spectroscopic datasets.</p>
-    </div>
-
   </div>
 </section>
 
 </body>
 </html>
+
