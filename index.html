@@ -33,15 +33,29 @@
 
     header {
       padding: 3rem 2rem 2rem;
-      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1.5rem;
+      text-align: left;
+      flex-wrap: wrap;
+    }
+
+    header img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 50%;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     }
 
     header h1 {
-      margin-bottom: 0.5rem;
+      margin: 0;
       font-size: 2.2rem;
     }
 
     header p {
+      margin-top: 0.4rem;
       color: #555;
       font-size: 1.1rem;
     }
@@ -80,14 +94,17 @@
 </nav>
 
 <header>
-  <h1>Robert Oliva Vidal</h1>
-  <p>Permanent researcher in Geosciences Barcelona (geo3bcn-CSIC).</p>
+  <img src="myPhoto.png" alt="Photo of Robert Oliva Vidal">
+  <div>
+    <h1>Robert Oliva Vidal</h1>
+    <p>Permanent researcher in Geosciences Barcelona (geo3bcn-CSIC).</p>
+  </div>
 </header>
 
 <section>
   <h2>About</h2>
   <p>
-    Welcome to my personal website. I am a physicist with expertise in high-pressure spectroscopic investigation of crystalline compounds.
+    Welcome to my personal website. I am a physicist with expertise in high-pressure spectroscopic techniques to investigate crystalline compounds.
   </p>
 </section>
 
@@ -100,4 +117,3 @@
 
 </body>
 </html>
-
